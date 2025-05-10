@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Encabezado */
+h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Párrafo introductorio */
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Barra de navegación */
+.navbar {
+    margin: 20px 0;
+}
+
+.navbar button {
+    background-color: #4b9bf0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar button:hover {
+    background-color: #00b357;
+}
+
+/* Contenedor de letras */
+#letras-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Contenedor de palabras */
+#palabras-container {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Títulos de letras */
+h2 {
+    font-size: 2em;
+    color: #343a40;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Definiciones */
+p strong {
+    color: #007bff;
+    font-size: 1.1em;
+}

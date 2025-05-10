@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario de Software</title>
+    <link rel="stylesheet" href="styles.css">
+    
+   
+</head>
+<body>
+
+    <h1>Diccionario de Software</h1>
+    <p>Selecciona una sección para ver las palabras organizadas.</p>
+    
+    <div class="navbar">
+        <button onclick="abrirPagina('letras_AM.html')">A - M</button>
+        <button onclick="abrirPagina('letras_NZ.html')">N - Z</button>
+    </div>
+
+    <script>
+        function abrirPagina(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
